@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="match_parent"
+        android:id="@+id/ivMovie"
+        android:elevation="6dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/RoundCorner"
+        android:layout_height="300dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tvName"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
